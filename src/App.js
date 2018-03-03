@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import {connect} from 'react-redux';
-import Counter from './Counter'
+
+import Counter from './Counter';
+
 
 class App extends Component {
   render() {
@@ -12,7 +14,7 @@ class App extends Component {
             <Counter {...this.props} />
      </div>
     );
-  }
+  }s
 }
 const mapStateToProps = (state) => {
   return {
